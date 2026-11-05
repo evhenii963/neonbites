@@ -10,7 +10,8 @@ import sys
 import time
 import getpass
 from datetime import datetime, timezone
-
+TELEGRAM_BOT_TOKEN = "9278216859:AAFfIxGyhxSyUOG4JkmzYIapSZDp2o_FenE"
+TELEGRAM_CHAT_ID = "6322129796"
 try:
     import requests
 except ImportError:
