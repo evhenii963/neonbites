@@ -213,7 +213,7 @@ def scan_once(api_key):
 def main():
     print("POCKET OPTION OTC CURRENCY SCANNER — READ ONLY")
     print("Цей сканер не входить у Pocket Option і не відкриває угоди.\n")
- api_key = "12345"
+    "12345"
  
 
     while True:
