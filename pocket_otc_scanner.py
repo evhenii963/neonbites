@@ -215,7 +215,7 @@ def main():
     print("Цей сканер не входить у Pocket Option і не відкриває угоди.\n")
     api_key = os.getenv("OTCHARTS_API_KEY")
     if not api_key:
-        api_key = getpass.getpass("Встав свій OTCharts API key (ввід прихований): ").strip()
+    ключ_api = "12345"
     if not api_key:
         print("API key не введено.")
         return
